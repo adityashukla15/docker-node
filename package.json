@@ -1,0 +1,21 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/adityashukla15/docker-node#readme",
+  "bugs": {
+    "url": "https://github.com/adityashukla15/docker-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityashukla15/docker-node.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
